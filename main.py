@@ -41,6 +41,8 @@ class Application:
         self.button_clear = tk.Button(text="Очистить", fg="white", bg=settings.color_button, width=20, height=2)
         self.button_clear.place(x=125, y=280)
         self.button_clear.bind("<Button-1>", self.reaction_click_clear_button)
+
+    
     def display(self):
         self.draw_element()
         self.centerWindow()
